@@ -1,0 +1,92 @@
+.board {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  
+  .column {
+    flex: 1;
+    min-height: 300px;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+  }
+  
+  /* .task {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+    cursor: grab;
+     position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+  } */
+  
+  .task {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 0.75rem;
+    margin-bottom: 0.75rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: grab;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: box-shadow 0.2s ease;
+  }
+  body{
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    
+  }
+  background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+ 
+   
+  
+  
+  
+  .task:hover {
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); /* More shadow when hovering */
+  }
+  
+  /* Optional: add a small icon or paperclip style (like for sticky notes) */
+  .task:before {
+    content: "📎"; /* You can change this to another icon */
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 1.5rem;
+  }
+  
+  .task button {
+    background-color: #ff8c00; /* Bright color for delete button */
+    color: #fff;
+    border: none;
+    padding: 0.4rem 0.8rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .task button:hover {
+    background-color: #d56a00; /* Darker button color on hover */
+  }
+  #todo{
+    background-color: #f8d7da; /* Light red for todo */
+
+  }
+  #inprogress{
+    background-color: #fff3cd; /* Light yellow for in-progress */
+  }
+  #done{
+    background-color: #d4edda; /* Light green for done */
+  }
