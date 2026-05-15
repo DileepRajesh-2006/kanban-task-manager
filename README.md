@@ -4,13 +4,6 @@ A modern, responsive Kanban-style task management web application built using HT
 
 ---
 
-## 🚀 Live Demo
-> *(Add your GitHub Pages / Netlify / Vercel link here if deployed)*  
-Example:  
-https://your-username.github.io/kanban-task-manager/
-
----
-
 ## 📸 Preview
 *(Add screenshots here for better placement visibility)*  
 - Board View  
