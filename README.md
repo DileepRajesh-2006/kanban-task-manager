@@ -5,7 +5,7 @@ A modern, responsive Kanban-style task management web application built using HT
 ---
 
 ## 📸 Preview
-*(Add screenshots here for better placement visibility)*  
+ 
 - Board View  
 - Add Task Modal  
 - Login / Signup Pages  
